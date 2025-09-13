@@ -1,0 +1,28 @@
+{
+  "name": "dapodik-api",
+  "version": "1.0.0",
+  "description": "Unofficial Api for Dapodik.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "readme": "node ./src/script/mapRouteToReadme.js"
+  },
+  "keywords": [
+    "dapodik-api",
+    "dapodik"
+  ],
+  "author": "Novianto Rahmadi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.1",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
